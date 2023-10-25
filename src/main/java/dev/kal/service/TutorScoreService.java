@@ -1,4 +1,4 @@
-package dev.kal.model.service;
+package dev.kal.service;
 
 import dev.kal.model.Questionnaire;
 
