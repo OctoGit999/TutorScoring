@@ -1,12 +1,12 @@
-package dev.kal.service;
+package dev.kal.tutor.service;
 
-import dev.kal.model.Question;
-import dev.kal.model.Questionnaire;
+import dev.kal.tutor.model.Question;
+import dev.kal.tutor.model.Questionnaire;
 
 public class TutorScoreServiceImpl implements TutorScoreService {
     /**
      *
-     * @param questionnaire {@link dev.kal.model.Questionnaire}
+     * @param questionnaire {@link Questionnaire}
      *
      * This method runs through all the questions in given questionnaire and calculates
      * the sum of all scores based on user selected answers for those questions.

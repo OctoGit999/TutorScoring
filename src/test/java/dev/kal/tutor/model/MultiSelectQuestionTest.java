@@ -1,5 +1,7 @@
-package dev.kal.model;
+package dev.kal.tutor.model;
 
+import dev.kal.tutor.model.Answer;
+import dev.kal.tutor.model.MultiSelectQuestion;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

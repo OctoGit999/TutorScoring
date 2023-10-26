@@ -1,9 +1,9 @@
-package dev.kal.model;
+package dev.kal.tutor.model;
 
 import java.util.List;
 
 /**
- * Subclass of {@link dev.kal.model.Question} that represents a multiple choice question
+ * Subclass of {@link Question} that represents a multiple choice question
  * i.e. user can select multiple answers from the list of options given
  */
 public class MultiSelectQuestion extends Question {

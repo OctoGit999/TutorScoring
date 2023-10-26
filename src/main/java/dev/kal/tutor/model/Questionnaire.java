@@ -1,4 +1,4 @@
-package dev.kal.model;
+package dev.kal.tutor.model;
 
 import java.util.List;
 

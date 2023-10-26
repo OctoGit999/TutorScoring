@@ -1,7 +1,7 @@
-package dev.kal.model;
+package dev.kal.tutor.model;
 
 /**
- * A class that represents one of the possible choices for answering a {@link dev.kal.model.Question}
+ * A class that represents one of the possible choices for answering a {@link Question}
  */
 public class Answer {
 

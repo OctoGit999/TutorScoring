@@ -1,10 +1,10 @@
-package dev.kal.model;
+package dev.kal.tutor.model;
 
 import java.util.List;
 
 /**
  * An abstract class that represents a Question in a Questionnaire
- * Known subclasses {@link dev.kal.model.MultiSelectQuestion} and {@link dev.kal.model.SingleSelectQuestion}
+ * Known subclasses {@link MultiSelectQuestion} and {@link SingleSelectQuestion}
  */
 public abstract class Question {
         // Text of the Question

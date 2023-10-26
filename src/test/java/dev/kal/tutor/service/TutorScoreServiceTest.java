@@ -1,6 +1,8 @@
-package dev.kal.service;
+package dev.kal.tutor.service;
 
-import dev.kal.model.*;
+import dev.kal.tutor.model.*;
+import dev.kal.tutor.service.TutorScoreService;
+import dev.kal.tutor.service.TutorScoreServiceImpl;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,7 @@
-package dev.kal.model;
+package dev.kal.tutor.model;
 
-import org.junit.jupiter.api.BeforeEach;
+import dev.kal.tutor.model.Answer;
+import dev.kal.tutor.model.SingleSelectQuestion;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

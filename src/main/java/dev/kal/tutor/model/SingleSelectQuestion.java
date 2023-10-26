@@ -1,9 +1,9 @@
-package dev.kal.model;
+package dev.kal.tutor.model;
 
 import java.util.List;
 
 /**
- * Subclass of {@link dev.kal.model.Question} that represents a single choice question
+ * Subclass of {@link Question} that represents a single choice question
  * i.e. user can select only one answer from the list of options given
  */
 public class SingleSelectQuestion extends Question {
