@@ -19,7 +19,7 @@ public class TutorScoreServiceImpl implements TutorScoreService {
         if(questionnaire.isScored()) {
             throw new IllegalStateException("Questionnaire already scored!");
         }
-
+        // Calculate the sum of scores of all questions
         int totalScore = questionnaire.getQuestions().stream()
                 .mapToInt(Question::calculateScore)
                 .sum();

@@ -19,6 +19,7 @@ public class MultiSelectQuestion extends Question {
      */
     @Override
     public int calculateScore() {
+        // return the sum of scores associated with all answers that are selected
         return this.answers.stream()
                 .filter(Answer::isSelected)
                 .mapToInt(Answer::getScore)

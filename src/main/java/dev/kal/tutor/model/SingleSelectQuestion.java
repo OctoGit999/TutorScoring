@@ -20,6 +20,7 @@ public class SingleSelectQuestion extends Question {
      */
     @Override
     public int calculateScore() {
+        // find the first answer that is selected and return its score
         return this.answers.stream()
                 .filter(Answer::isSelected)
                 .findFirst()
